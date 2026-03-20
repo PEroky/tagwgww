@@ -52,7 +52,7 @@ jobs:
 
           # ====== 自定义版本信息（按需修改，留空则使用默认值） ======
           CUSTOM_BRAND_NAME="Paper"            # 品牌名，显示为 Loading {Brand-Name} ...
-          CUSTOM_BUILD_NUMBER="1.21.11-127"               # 构建号，留空则使用 github.run_number
+          CUSTOM_BUILD_NUMBER="127"               # 构建号，留空则使用 github.run_number
           CUSTOM_GIT_BRANCH="main"                 # 分支名，留空则使用实际 git 分支
           CUSTOM_GIT_COMMIT="bd74bf6"       # 替换 @987ce51
           CUSTOM_BUILD_TIME="2026-03-10T02:55:23Z"                 # 留空则使用当前构建时间，如 2026-01-01T00:00:00Z
